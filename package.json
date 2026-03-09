@@ -10,9 +10,9 @@
   "license": "ISC",
   "author": "Osama",
   "type": "module",
-  "main": " nodemon index.js",
+  "main": " nodemon index.js", 
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon src/index.js"
   },
   "dependencies": {
     "dotenv": "^17.3.1",
