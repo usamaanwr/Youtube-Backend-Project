@@ -1,0 +1,26 @@
+{
+  "name": "youtube-backend-project",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "javascript",
+    "json",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Osama",
+  "type": "module",
+  "main": " nodemon index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.4",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}
