@@ -10,11 +10,13 @@
   "license": "ISC",
   "author": "Osama",
   "type": "module",
-  "main": " nodemon index.js", 
+  "main": " nodemon index.js",
   "scripts": {
     "start": "nodemon src/index.js"
   },
   "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "mongoose": "^9.2.4",
