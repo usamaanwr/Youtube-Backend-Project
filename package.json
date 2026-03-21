@@ -12,7 +12,7 @@
   "type": "module",
   "main": " nodemon index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
